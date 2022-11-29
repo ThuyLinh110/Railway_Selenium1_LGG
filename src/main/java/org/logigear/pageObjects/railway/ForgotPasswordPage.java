@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class ForgotPasswordPage extends BasePage{
     private By txtEmail = By.id("email");
-    private By btnSend = By.xpath("////input[@value='Send Instructions']");
+    private By btnSend = By.xpath("//input[@value='Send Instructions']");
     private WebElement getTxtEmail() {
         return Constant.WEBDRIVER.findElement(txtEmail);
     }
