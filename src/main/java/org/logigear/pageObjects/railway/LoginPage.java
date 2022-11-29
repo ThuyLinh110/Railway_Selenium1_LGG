@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPage extends BasePage {
     //Locators
-    private final By txtUsername = By.xpath("//input[@id='username']");
-    private final By txtPassword = By.xpath("//input[@id='password']");
+    private final By txtUsername = By.id("username");
+    private final By txtPassword = By.id("password");
     private final By btnLogin = By.xpath("//input[@type='submit' and @value='Login']");
     private final By lblLoginErrorMsg = By.xpath("//p[@class='message error LoginForm']");
     private final By titleLoginPage = By.xpath("//h1[contains(text(),'Login Page')]");
